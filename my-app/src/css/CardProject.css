@@ -1,0 +1,48 @@
+.heading-project {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.desc-project {
+  font-size: .9rem;
+}
+
+.wrapper-project img {
+  transition: 1s;
+  opacity: .7;
+}
+
+.wrapper-project:hover img {
+  opacity: 1;
+
+}
+
+.wrapper-stack {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.techStack {
+  color: var(--heading);
+  font-size: .8rem;
+  padding-right: .7rem;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 991.98px) {}
+
+/* smartphone */
+@media screen and (max-width: 767.98px) {}
+
+
+/* applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}

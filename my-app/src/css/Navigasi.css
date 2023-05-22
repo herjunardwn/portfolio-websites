@@ -1,0 +1,104 @@
+:root {
+  --mainColor: #151a2a;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.primary-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  transition: background-color 0.5s;
+}
+
+.container {
+  max-width: 120rem;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.navbar {
+  height: 7rem;
+  transition: height 0.25s;
+}
+
+.navbar .button {
+  font-size: .9rem;
+}
+
+.logo {
+  font-size: 1.5rem !important;
+  font-weight: 800;
+  background: linear-gradient(267.81deg, #6a31c0 1.92%, #b697ff 106.64%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-sosmed {
+
+  font-size: 1.7rem;
+  background: linear-gradient(267.81deg, #f1e7ff 2.45%, #ffffff 106.65%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+  display: inline-block;
+  background: linear-gradient(267.81deg, #7232d0 1.92%, #905efc 106.64%);
+  color: #efefef;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.button:hover {
+  background: #9e72fe;
+  color: #efefef;
+}
+
+header.active {
+  background-color: rgba(7, 5, 14, 0.6);
+  box-shadow: 0 2px 1.6rem rgba(35, 90, 167, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+header.active .navbar {
+  height: 5rem;
+}
+
+/* TABLET */
+@media screen and (max-width: 992px) {
+  .nav-sosmed {
+    font-size: 1.9rem !important;
+  }
+
+  .button {
+    background-color: var(--mainColor);
+    color: #fff;
+  }
+}
+
+/* smartphone */
+@media screen and (max-width: 575.98px) {
+  .navbar {
+    height: 5.5rem;
+  }
+
+  .logo {
+    font-size: 1.5rem !important;
+  }
+
+  .nav-sosmed {
+    font-size: 1.65rem !important;
+  }
+}

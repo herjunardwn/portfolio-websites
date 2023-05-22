@@ -1,0 +1,9 @@
+.slider img {
+  width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--mainColor);
+  opacity: .8;
+}
