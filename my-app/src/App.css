@@ -2,7 +2,7 @@
 
 :root {
   --heading: #9e72fe;
-  --text: #d0cade;
+  --text: #dfdce6;
 }
 
 body {
@@ -241,8 +241,28 @@ body {
 
 .desc-title-1 {
   color: var(--text);
-  line-height: 25px;
+  line-height: 23px;
   font-weight: 400;
+}
+
+.feelFree {
+  margin-top: -1rem;
+  color: var(--text);
+}
+
+.sayHello {
+  border: 2px solid var(--heading);
+  color: var(--heading);
+  padding: .5rem .7rem !important;
+  width: 10rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: .9rem;
+}
+
+.sayHello:hover {
+  background: linear-gradient(267.81deg, #7232D0 1.92%, #905efc 106.64%);
+  color: #fff;
 }
 
 .tech .btn {

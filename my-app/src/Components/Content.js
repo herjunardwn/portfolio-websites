@@ -46,28 +46,25 @@ const Content = () => {
             </div>
           </div>
 
-          <div className="row mt-5 d-flex justify-content-center align-items-center">
+          <div className="row mt-4 d-flex justify-content-center align-items-center">
             <div className="col-lg-6">
               <p className="desc-title-1">
-                Hello, my name is Iwan Ridwan and I come from Indonesia. I am a Frontend Developer working as a freelancer (part-time) for more than 2 years. <br />
+                <span className="fs-3">Hello, </span>
+                my name is Iwan Ridwan I come from Indonesia. I am a Frontend Developer working as a freelancer (part-time) for more than 2 years.
                 <br />
-                I am also used to using CMS Wordpress and Elementor to create and design websites.
-                <br />I have a passion for creating user-interface designs that are both functional and aesthetically pleasing. I am constantly seeking creative and innovative solutions to tackle any challenges that may arise during my
-                work.
+                <br />
+                In developing a website, I am used to using HTML, CSS, JS, React Js and CSS frameworks, one of which is Bootstrap. I am also familiar with using CMS Wordpress and Elementor to create and design websites.
               </p>
             </div>
-            <div className="col-lg-6 d-flex flex-column gap-3 mt-5 mt-lg-0">
-              <h6 className="text-light text-center">Here are some technologies I commonly use</h6>
-              <div className="tech d-flex flex-wrap gap-2 justify-content-center align-items-center">
-                <span className="btn">Javascript</span>
-                <span className="btn">HTML5</span>
-                <span className="btn">CSS3</span>
-                <span className="btn">Bootstrap</span>
-                <span className="btn">ReactJs</span>
-                <span className="btn">Git</span>
-                <span className="btn">Wordpress</span>
-                <span className="btn">Elementor</span>
-              </div>
+            <div className="col-lg-6 d-flex flex-column gap-3">
+              <p className="desc-title-1">
+                I have a passion for creating <strong>Functional</strong> and <strong>Aesthetically</strong> pleasing user interface designs. I am constantly looking for creative and innovative solutions to overcome any challenges that may
+                arise during my work.
+              </p>
+              <span className="feelFree fs-5">Feel free to contact me!</span>
+              <a href="mailto:herjunahr@gmail.com" className="sayHello rounded-2">
+                Say Hello &#x1F44B;
+              </a>
             </div>
           </div>
 
