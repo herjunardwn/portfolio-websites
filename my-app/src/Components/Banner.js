@@ -27,7 +27,7 @@ const Banner = () => {
 
       <div className="col-md-6 my-5 my-lg-0 position-relative mx-md-auto">
         <div className="fotoProfile mx-auto">
-          <img src={Avatar} alt="profile" className="w-100 rounded-3" />
+          <img src={Avatar} alt="profile" className="rounded-3" />
         </div>
         <div className="job-1 shadow zoom-1">Frontend Developer</div>
         <div className="job-2 shadow zoom-2">Wordpress Web Designer</div>
